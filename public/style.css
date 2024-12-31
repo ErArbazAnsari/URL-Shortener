@@ -1,0 +1,117 @@
+body {
+    font-family: 'Urbanist', sans-serif;
+    background: linear-gradient(135deg, #2c3e50, #4ca1af);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: white;
+}
+
+.container {
+    background-color: #1e272e;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    width: 450px;
+    text-align: center;
+}
+
+h1 {
+    color: #f5f6fa;
+    margin-bottom: 25px;
+    font-size: 2rem;
+}
+
+form div {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    font-weight: 600;
+    margin-bottom: 8px;
+    display: block;
+    color: #dcdde1;
+}
+
+input[type="url"],
+input[type="text"] {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #576574;
+    border-radius: 10px;
+    font-size: 1rem;
+    background-color: #2f3640;
+    color: #f5f6fa;
+    transition: border-color 0.3s ease;
+}
+
+input[type="url"]:hover,
+input[type="text"]:hover {
+    border-color: #4ca1af;
+}
+
+button {
+    background-color: #4ca1af;
+    color: #fff;
+    padding: 16px 24px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #3b8d99;
+}
+
+h2 {
+    color: #dcdde1;
+    margin-top: 35px;
+    font-size: 1.5rem;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+li {
+    background-color: #2f3640;
+    margin: 12px 0;
+    padding: 14px;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li a {
+    color: #4ca1af;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+li button {
+    background-color: #cf6679;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+li button:hover {
+    background-color: #b00020;
+}
